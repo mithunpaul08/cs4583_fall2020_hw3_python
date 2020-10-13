@@ -32,7 +32,7 @@ class QueryEngine:
         ans=[]
         # first argument must be of type document.Document()
         ans1 = Document("Doc1",1.30)
-        ans2 = Document("Doc2",1.24)
+        ans2 = Document("Doc1",1.24)
         ans.append(ans1)
         ans.append(ans2)
         return ans
